@@ -1,0 +1,582 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #7a4b52;
+}
+
+
+
+#website {
+    background: #5f383e  ;
+    width: 75%;
+    height: 100vh;
+    margin: 0px auto;
+    border: 1px solid #ccc
+
+}
+
+/*Seccion Banner*/
+
+.header {
+    color: #b90633;
+    background-image: url("../images/index/My\ project.jpg");
+    margin: auto;
+    margin-bottom: 2px;
+    text-align: left;
+    padding-left: 30px;
+    height: 110px;
+    padding-top: 60px;
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: 25px;
+
+}
+   
+/*Seccion Banner*/
+
+/*Inicio Barra Menu*/
+#nav{  
+    
+    background:#aa0b32 ;
+    margin-left: 10px; 
+    position:absolute;
+    }
+
+#menuH{
+	max-width: auto;
+	min-height: auto;
+    background: burlywood;
+	float:center;
+    margin-bottom: 2px;
+    text-align: center;
+    
+}
+
+#menuH ul{	
+	display: grid;  
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    padding: 10px;
+    list-style: none;
+    background: burlywood; ;
+    margin-bottom: 5px;
+    
+   
+}
+#menuH a{	
+    padding: 10px;
+	text-decoration: none;
+	padding-bottom: 10px;
+    border: #b90633 solid 2px;
+     margin-top: 3px;
+    margin-right: 3px;
+    
+    color: rgb(2, 2, 2);
+	font-family:fantasy ;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content:space-evenly;
+}
+
+
+/*Seccion Imagenes index*/
+
+#bloques {
+
+    width: 90%;
+    height:15%;
+    display:inline-block;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #7C081A;
+    ;
+    
+}
+
+#tipos {
+    width: 100%;
+       height: 100%;
+       background: #B3996E;
+       margin-left:5px;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       border: 2px solid #ccc;
+       display:inline-block;    
+       padding-left: 5px;
+       padding-top: 5px;
+            
+   }
+
+   .tipos__img1{
+    float: left;
+    margin-right: 5px;
+   }
+
+  .tipos__h3{
+    padding-left: 5px;
+    text-align:center;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+  } 
+
+  .tipos__p {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+  }
+  .tipos__hr {border: 3px solid rgb(177, 79, 79); 
+              border-radius: 500px/50px;
+              height: 10px; 
+              text-align: center;}
+
+/*Seccion Testimonios index*/
+
+    .testimonio__h2 {
+        padding-left: 5px;
+        text-align:center;
+        font-size: 50px;
+        margin-bottom: 10px;
+        background: #a58483;
+        border-radius: 40px;
+        width: 50%;
+        margin-left: 25%;
+
+    }
+
+    .testimonios{
+        display: -webkit-inline-flex;
+        width: 90%;
+        height: 50%;
+       
+        margin-left: 15%;
+        
+    }
+
+    .testimonio__personas{
+        border:dotted ;
+        width: 20%;
+        height: 100%;
+        color: aliceblue;
+        padding: 10px;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin: 25px;
+        text-align: center;
+        font-size: 20px;
+        font-style: oblique;
+                
+    }
+    
+/* Inicio Pie de pag*/
+#footer{
+    background:rgb(202, 183, 155);
+     width: 100%;
+     height: 50%;
+     margin: 1px;
+     padding: 2px;
+     box-sizing: content-box;
+     
+ }
+
+ #footer__left{
+    height: 100%;
+    width: 40%;
+    float:left;
+    padding-left: 5px;
+    margin-left:20px;
+    text-align:justify;
+   
+    
+   
+}
+#footer__left h3{ 
+    color: rgb(12, 12, 12);
+    ;
+}
+
+#footer__left p{
+    font-style: italic;
+    font-size: 15px;
+    margin: 2px;
+    color:rgb(2, 2, 2);
+
+}
+
+/*Comienzo Medios de Pago*/
+
+#footer__center{
+    display: inline-block;
+    height:100%;
+    width: 40%;
+    
+   }
+
+#footer__center h3{
+    color:rgb(2, 2, 2);
+    margin-left: 30px;   
+}
+
+.center__img{
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    float: center;
+}
+
+/*Comienzo Redes sociales*/
+
+#footer__right{
+    height: 100%;
+    width: 17%;
+    float: right;
+    }
+
+#footer__right h3 {
+    color:rgb(2, 2, 2);
+}
+.right__img{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    float: center;
+}
+
+/*Fin Pie de Pagina*/
+
+
+/*Stylo para la pag. Nosotros === se aplica el mismo head, barra y footer*/
+
+#nosotros {
+    width: 90%;
+    height:50%;
+    display:inline-block;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+    
+    
+
+}
+
+#nosotros__section {
+    width: 100%;
+       height: 100%;
+       margin-left:5px;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       display:inline-block;    
+       padding-left: 5px;
+       padding-top: 5px;
+            
+   }
+
+   .nosotros__tipos__img1{
+             float: left;
+             margin-right: 115px;
+             
+              }
+
+  .nosotros__tipos__h3{
+            padding-left: 5px;
+            text-align:center;
+            font-size: 30px;
+            margin-bottom: 10px;
+            font-style: oblique;
+            font-family: fantasy;
+            font-size: 35px;
+            color: #af9a99;
+        
+
+        } 
+
+  .nosotros__tipos__p {
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 15px;
+
+
+         }
+  .nosotros__tipos__hr {
+            border: 3px solid rgb(177, 79, 79); 
+            border-radius: 300px/10px;
+            height: 0px; 
+            text-align: center;
+        }
+
+    .nosotros__lista__div{
+         
+         float: right;
+         margin-right: 35px;
+         margin-top: 5px; 
+        }
+
+    .nosotros__lista__li {
+        padding: 15px;
+        
+    }    
+   
+/*fin stylo pag nosotros*/
+
+/*Stylo para la pag. Service === se aplica el mismo head, barra y footer*/
+
+
+#bloque__service {
+    width: 100%;
+    height:50%;
+    display:inline-block;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #7C081A;
+    
+
+}
+
+.tipos__service {
+
+    
+    height: 95%;
+    background: #B3996E;
+    margin-left:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;    
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+}
+
+.tipos__service__h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tipos__service__hr {
+            border: 0;
+            height: 12px; 
+            box-shadow: inset 0 12px 12px -12px rgb(97, 51, 128);
+        
+         }
+
+.tipos__service__precio {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+
+}
+
+.tipos__service__p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*Fin Stylo para la pag. Service === */
+
+/*Stylo para la pag. bicicletas === se aplica el mismo head, barra y footer*/
+
+#bloque__bicicletas {
+    width: 100%;
+    height:50%;
+    display:inline-block;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #7C081A;
+}
+
+.tipo__bicicletas {
+    height: 95%;
+    background: #B3996E;
+    margin-left:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;    
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.tipos__bicicletas__hr {
+    border: 2px inset rgb(128, 98, 163);
+    height: 1px;
+    width: 80%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.tipos__bicicletas__h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tipos__bicicletas__h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
+
+/*Fin Stylo para la pag. Bicicletas === */
+
+
+
+/*Stylo para la pag. contacto === se aplica el mismo head, barra y footer*/
+
+#bloque__contacto {
+    width: 100%;
+    height:100%;
+    display:inline-block;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-top: 15px;
+    color: #e0d9da;
+    
+
+}
+
+.bloque__lista {
+
+    background-color: #B3996E;
+    width: 25%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 55px;
+    text-align: center;
+    
+    
+}
+
+.bloque__lista__h2 {
+    font-family:serif;
+    font-size: 40px;
+    color: #7C081A;
+    text-decoration: underline;
+}
+
+.bloque__lista__p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-top: 5px;
+    color: #7C081A;
+    padding-bottom: 10px;
+}
+
+.bloque__lista__hr {
+            border: 3px solid rgb(177, 79, 79); 
+            border-radius: 300px/10px;
+            height: 0px; 
+            text-align: center;
+            margin-top: 15px;
+           
+    }
+
+/*Inicio Formulario*/
+#contact__form {
+    width: 450px;
+      height: 720px;
+      padding: 25px;
+      border-radius: 10px ;
+      border: 3px solid #ccc;
+      font-family:sans-serif;
+      display: inline-block;
+      margin-left: 250px;
+      margin-top: 50px ;
+      margin-bottom: 50px;
+
+   
+  }
+   .contact__form__h2{
+      color:rgb(237, 242, 246);
+       font-size: 30px;
+       text-align: center;
+       margin-bottom: 5px;
+  }
+  
+  .contact__form__p{
+      color: aliceblue;
+      font-size: 20px;
+      margin-bottom:10px;
+  }
+
+  .contact__form__hr {
+    margin-bottom: 10px;
+  }
+  
+  .contact__form__label { 
+      display:inline-table; 
+      float:left;
+      color:rgb(235, 123, 10);
+      padding: 10px;
+      font-family: sans-serif; 
+      font-size: 13px;
+      font-weight: bold;
+      margin-top: 3px;
+      margin-right: 15px; }
+  
+  .contact_form input { height:20px;
+  width:400px; padding:8px;margin-bottom: 5px; margin-top: 5px; margin-right: 8px; 
+  }
+  .contact_form textarea { padding:8px;
+  width:400px; height: 150px; margin-top: 10px; }
+
+  .contact_form button {float:center; margin-left: 180px; margin-right:100px; }
+  
+  /*Campos a completar */
+  .contact_form input, .contact_form textarea {
+  border:2px solid #fff;
+      box-shadow: 0px 0px 10px #ccc, 0 5px 5px
+  #ccc inset;
+  border-radius:1px; color: #7C081A ; font-size:
+  12px; -moz-transition:
+  padding .25s;
+  -webkit-transition: padding .25s;
+  -o-transition: padding .25s;
+  transition: padding .25s;}
+  .contact_form input:focus, 
+  .contact_form textarea:focus {
+  background: #fff; border:1px solid #fff;
+  box-shadow: 0 0 3px #aaa; padding-right:10px;}
+  
+  .contact_form input:required:valid, .contact_
+  form tex-tarea:required:valid {
+  box-shadow: 0 0 10px #5cd053; border-color:#28921f;}
+  .contact_form input:focus:active .contact_
+  form textarea:focus:invalid {
+  box-shadow: 20px 20px 20px #d45252; border-color:#b03535}
+  /*Campos a completar */
+  
+  /*Boton enviar*/
+  button.submit { padding: 9px 17px;
+  font-family: sans-serif;
+  font-weight: bold; line-height: 1.5; color:black;
+  border: none; text-shadow: 0 5px 5px
+  rgba(25, 25, 25, 0.5);
+  background-image: -moz-linear-gradient(0%
+  100% 90deg, #222, #222);
+  background-color: #fff; border: 1px solid
+  #f1f1f1;
+  border-radius: 10px; box-shadow: 0 1px 2px
+  rgba(0, 0, 0, 0.5);}
+  button.submit:hover { opacity:.80; cursor:pointer; color: #fff; }
+  button.submit:active { border: 1px solid
+  #222;
+  box-shadow: 0 0 10px 5px #444 inset;
+ }
+      
+  /*Fin de Formulario*/
